@@ -3,14 +3,14 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Top 3 memes</title>
+    <title>Top memes</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-light">
 <div class="container mt-5">
-    <h1 class="mb-4 text-center">Top 3 memes</h1>
+    <h1 class="mb-4 text-center">Top memes</h1>
     <div class="row">
         <?php
         $result = $conexion->query("SELECT * FROM memes");
